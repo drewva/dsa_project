@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.MetricsGridContainer {
+  display: grid;
+  grid-template-columns: (2);
+  column-gap: 25px;
+  row-gap: 15px;
+  grid-template-rows: 3;
+  text-align: center;
+  vertical-align: top;
+  padding-left: 20px;
+}
+
+.LikesInputContainer {
+  grid-column: 1/2;
+  grid-row: 1;
+  text-align: right;
+}
+
+.DislikesInputContainer {
+  grid-column: 1;
+  grid-row: 2;
+  text-align: right;
+}
+
+.CommentsInputContainer {
+  grid-column: 1;
+  grid-row: 3;
+  text-align: right;
+}
+
+.ShortVidInputContainer {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: left;
+}
+
+.LongVidInputContainer {
+  grid-column: 2;
+  grid-row: 2;
+  text-align: left;
+}
+
+.RatingRatioInputContainer {
+  grid-column: 2;
+  grid-row: 3;
+  text-align: left;
+}
+
+.ResultsTableContainer {
+  background-color: white;
+  border-collapse: collapse;
+  border-width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 0;
+  margin-top: 25px;
+  table-layout: fixed;
+  display: block;
+  max-height: 60vh;
+  width: 50%;
+  overflow-y: scroll;
+  overflow-x: auto;
+  text-align: center;
+}
+
+tr {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.Algorithm {
+  margin-top: 10pt;
+}
+
+select {
+  border: none;
+  text-align: center;
+  width: 125pt;
+  height: 25pt;
+  font: inherit;
+  margin-bottom: 15pt;
+}
+
+.NextButton, .ReturnButton {
+  border: none;
+  background-color: #AEC2A3;
+  margin-top: 15pt;
+  font-size: 15pt;
+}
+
+.PreferencesTitle, .ResultsTitle {
+  font-size: 30pt;
+}
+
+input {
+  width: 25pt;
+  text-align: center;
+  font-size:13pt;
+}
+
+span {
+  margin-right: 15pt;
+  margin-left: 15pt;
+  font-size: 13pt;
+}
